@@ -1,0 +1,24 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【VSCode: Backup the KeyBindings file (manually)】
+1. Locate the File:
+    On Windows: %AppData%\Code\User\keybindings.json
+    On macOS: ~/Library/Application Support/Code/User/keybindings.json
+    On Linux: ~/.config/Code/User/keybindings.json
+2. Copy the File:
+    Simply copy the keybindings.json file to your backup location.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【VSCode: Open/close Minimap for specific file (e.g. python)】
+1. Open your VSCode settings.json
+    On Editor: >settings.json
+    On Windows: %AppData%\Code\User\settings.json
+    On macOS: /Users/<YourUsername>/Library/Application Support/Code/User/settings.json
+    On Linux: /home/<YourUsername>/.config/Code/User/settings.json
+2. Add the following configuration to specify the file:
+    {
+        "editor.minimap.enabled": false, // Set a default status
+        "[python]": {
+            "editor.minimap.enabled": true // Enable minimap for Python files
+        }
+    }
+3. Save and Done.

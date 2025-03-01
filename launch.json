@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ISO CPP Launch",
+            "request": "launch",
+            "type": "cppdbg",
+            "args": [],
+            "cwd": "${workspaceFolder}/C++",
+            /* Modification */
+            "program": "${workspaceFolder}/C++/program",
+            "preLaunchTask": "C++ Build",
+            //"stopAtEntry": true,
+            "MIMode": "gdb"
+        },
+        {
+            // Default configuration is fine.
+            "name": "Microsoft CS Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "C# Build",
+            "program": "${workspaceFolder}/C#/bin/Debug/net9.0/C#.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/C#",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Microsoft TS Launch",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            /* Modification - remember to set 'sourceMap' to 'true' for debugging purposes */
+            "program": "${workspaceFolder}/TS/src/script.ts",
+            "preLaunchTask": "tsc: build - TS/tsconfig.json"
+        },
+        {
+            // Default configuration is fine.
+            "name": "Python Launch (Current File)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

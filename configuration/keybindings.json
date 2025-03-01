@@ -1,0 +1,27 @@
+// File location depends on your machine, check the ../note/vscode.txt for the path on your operating system.
+[
+    {
+        "key": "ctrl+shift+alt+m",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "saveAll",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAs",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.duplicateSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.toggleMinimap",
+        "when": "editorFocus"
+    }
+]
