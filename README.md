@@ -73,7 +73,11 @@ Keyboard Shortcuts (`keybindings.json`) - copy/paste the contents to your `keybi
 Just containing **notes**. That is it.
 
 ## In practice
-[Placeholder]
+Basic Setups (Terminal output):
+![Basic Setups (Terminal output)](src/Basic%20Setups.png)
+
+Edit `launch.json` and `tasks.json` paths:
+![Edit Paths](src/Edit%20Paths.png)
 
 # End of Line Sequence (CR LF &rarr; LF)
 
