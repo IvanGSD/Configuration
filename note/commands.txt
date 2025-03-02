@@ -1,0 +1,10 @@
+This file includes the easy-to-forget commands in Terminal (e.g. bash).
+
+pwd (print working directory) - Display the current directory you are in within the file system.
+nano (edit a file) - Simple Text Editor.
+more/less (view a file) - Display the contents of a file.
+
+About redirection:
+  echo << eof (redirect from) - redirection (from).
+  echo foo >> test.log (redirect to) - redirection (to).
+  https://www.gnu.org/s/bash/manual/html_node/Redirections.html
