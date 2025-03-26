@@ -3,6 +3,11 @@ This file includes the easy-to-forget commands in Terminal (e.g. bash).
 pwd (print working directory) - Display the current directory you are in within the file system.
 nano (edit a file) - Simple Text Editor.
 more/less (view a file) - Display the contents of a file.
+ps (process status) - snapshot of current processes.
+wc (word count) - print newline, word, and byte counts.
+last (last log) - show list of last logged.
+dmesg (diagnostic messages) - print the boot-up messages (stored in the kernel ring buffer).
+nice/renice (start/change priority of a program) - run w/ priority or alter priority of running processes.
 
 About redirection:
   echo << eof (redirect from) - redirection (from).
